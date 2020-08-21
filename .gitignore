@@ -1,0 +1,67 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+web/node_modules
+web/.pnp
+web/.pnp.js
+
+server/node_modules
+server/.pnp
+server/.pnp.js
+
+mobile/node_modules
+mobile/.pnp
+mobile/.pnp.js
+
+# testing
+web/coverage
+server/coverage
+mobile/coverage
+
+# production
+web/build
+server/build
+moblie/build
+
+# misc
+web/.DS_Store
+web/.env.local
+web/.env.development.local
+web/.env.test.local
+web/.env.production.local
+
+server/.DS_Store
+server/.env.local
+server/.env.development.local
+server/.env.test.local
+server/.env.production.local
+
+mobile/.DS_Store
+mobile/.env.local
+mobile/.env.development.local
+mobile/.env.test.local
+mobile/.env.production.local
+
+web/npm-debug.log*
+web/yarn-debug.log*
+web/yarn-error.log*
+
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+
+mobile/npm-debug.log*
+mobile/yarn-debug.log*
+mobile/yarn-error.log*
+
+
+mobile/.expo/
+mobile/.expo-shared/
+mobile/npm-debug.*
+mobile/*.jks
+mobile/*.p8
+mobile/*.p12
+mobile/*.key
+mobile/*.mobileprovision
+mobile/*.orig.*
+mobile/web-build/
